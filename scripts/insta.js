@@ -24,13 +24,13 @@ angular.module("myApp", [])
         }
     ])
     .controller("Example", function($scope, $interval, instagram) {
+      var max_limit = 20;
       $scope.pics = [];
       $scope.have = [];
       $scope.orderBy = "-likes.count";
       $scope.getMore = function() {
         instagram.fetchPopular(function(data) {
-            console.log(data)
-            for(var i=0; i<data.length; i++) {
+            for(var i=0; i<max_limit; i++) {
               if (typeof $scope.have[data[i].id]==="undefined") {
                 $scope.pics.push(data[i]) ;
                 $scope.have[data[i].id] = "1";
@@ -44,3 +44,4 @@ angular.module("myApp", [])
             'testapimike'
         ]
     });
+
