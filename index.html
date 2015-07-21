@@ -1,1 +1,263 @@
-Hello World
+<html>
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
+<script src='scripts/insta.js'></script>
+<link rel="stylesheet" type="text/css" href="http://mtaptich.github.io/d3-lessons/css/setosa.css">
+<style type="text/css">
+
+	.even circle{
+		fill: #95a5a6;
+	}
+
+	.odd circle{
+		fill: #2c3e50;
+	}
+
+	img{
+		position: absolute;
+		z-index: 100;
+	}
+
+	body {
+	  background: url(img/tall_winter_birch.png);
+	  background-image: url(img/tall_winter_birch.png), none;
+	  background-repeat: no-repeat;
+	  background-position: center top;
+	  height: 10000px;
+	  -ms-interpolation-mode: bicubic;
+	  image-rendering: -moz-crisp-edges;
+
+	  margin-top: 0px;
+	
+	}
+
+	html{
+		/*
+		background: rgba(157,221,208,1);
+		background: -moz-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(157,221,208,1)), color-stop(50%, rgba(113,193,178,1)), color-stop(100%, rgba(157,221,208,1)));
+		background: -webkit-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
+		background: -o-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
+		background: -ms-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
+		background: linear-gradient(to right, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dddd0', endColorstr='#9dddd0', GradientType=1 );
+		*/
+		background: #d99260;
+
+	
+		
+	}
+
+	.venue {
+		position: absolute;
+		top: 1400px;
+	}
+
+	.venue img{
+		height: 80px;
+		width: 80px;
+	}
+
+	.venue img:hover { 
+    	background-color: yellow;
+	}
+
+	.sleeping {
+		position: absolute;
+		top: 1640px;
+	}
+
+	.sleeping img{
+		height: 80px;
+		width: 80px;
+	}
+
+	.sleeping img:hover { 
+    	background-color: yellow;
+	}
+
+	.registry {
+		position: absolute;
+		top: 1900px;
+		left: 35%;
+	}
+
+	.registry img{
+		height: 80px;
+		width: 80px;
+	}
+
+	.registry img:hover { 
+    	background-color: yellow;
+	}
+
+	.instagram {
+		position: absolute;
+		top: 2180px;
+		right: 40%;
+	}
+
+	.instagram img{
+		height: 80px;
+		width: 80px;
+	}
+
+	.instagram img:hover { 
+    	background-color: yellow;
+	}
+
+	@media (max-width: 2000px) {
+    	.venue, .registry{
+    		left: 33%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 40%;
+    	}
+	}
+
+	@media (max-width: 1550px) {
+    	.venue, .registry{
+    		left: 31%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 37%;
+    	}
+	}
+
+	@media (max-width: 1366px) {
+    	.venue, .registry{
+    		left: 30%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 35%;
+    	}
+	}
+
+	@media (max-width: 1200px) {
+    	.venue, .registry{
+    		left: 26%;
+    	}
+
+    	.sleeping, .instagram{
+    		right: 33%;
+    	}
+	}
+
+	@media (max-width: 1000px) {
+    	.venue, .registry{
+    		left: 250px;
+    	}
+
+    	.sleeping, .instagram{
+    		left: 700px;
+    	}
+	}
+
+
+
+
+</style>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="Example">
+
+	<div class="container" style='height: 2600px;'>
+		
+	</div>
+
+
+    <div class="container">
+      
+        <div class="row">
+
+			<div class="col-xs-12" ng-repeat="p in pics" >
+				<div ng-if="$even">
+					<div class="col-xs-5" >
+						<a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" class="img-responsive thumbnail well" title="{{p.caption.text}}" style="margin-top: 40px"></a>
+										
+					</div>  
+					<div class="col-xs-2" >
+						<!--
+						<svg height="400px" width="50px" style='margin: 0 auto' class="even">
+						
+							<circle cx="25" cy='20' r='10'></circle>
+							<circle cx="25" cy='70' r='10'></circle>
+							<circle cx="25" cy='120' r='10'></circle>
+							<circle cx="25" cy='170' r='10'></circle>
+							<circle cx="25" cy='220' r='10'></circle>
+							<circle cx="25" cy='270' r='10'></circle>
+							<circle cx="25" cy='320' r='10'></circle>
+							<circle cx="25" cy='370' r='10'></circle>
+						</svg>
+						-->
+					</div>   
+					<div class="col-xs-5" >
+						<!--<p style="margin-top: 80px; height: 225px; overflow: hidden;">{{p.caption.text}}</p>-->
+					</div>  
+				</div>
+				<div ng-if="$odd">
+					<div class="col-xs-5" >
+						<!--<p style="margin-top: 80px; height: 225px; overflow: hidden;">{{p.caption.text}}</p>-->
+					</div> 
+					<div class="col-xs-2" >
+						<!--
+						<svg height="400px" width="50px" style='margin: 0 auto' class="odd">
+							
+							<circle cx="25" cy='20' r='10'></circle>
+							<circle cx="25" cy='70' r='10'></circle>
+							<circle cx="25" cy='120' r='10'></circle>
+							<circle cx="25" cy='170' r='10'></circle>
+							<circle cx="25" cy='220' r='10'></circle>
+							<circle cx="25" cy='270' r='10'></circle>
+							<circle cx="25" cy='320' r='10'></circle>
+							<circle cx="25" cy='370' r='10'></circle>
+						</svg>
+						-->
+					</div>  
+					<div class="col-xs-5" >
+						<a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" class="img-responsive thumbnail well" title="{{p.caption.text}}" style="margin-top: 40px"></a>	
+						
+					</div>   	
+				</div>
+	        </div>
+
+        </div>
+    </div>
+  
+
+</div>
+  
+
+<div class="venue">
+	<a href="http://www.pennspeak.com/" target="_blank">
+		<img src="img/rings4.png">
+	</a>
+</div>
+
+
+<div class="sleeping">
+	<a href="https://www.google.com/maps/search/hotels/@40.8424675,-75.6706981,13z" target="_blank">
+		<img src="img/sleeping.png">
+	</a>
+</div>
+
+<div class="registry">
+	<a href="http://www.myregistry.com/" target="_blank">
+		<img src="img/clipboard105.png">
+	</a>
+</div>
+<div class="instagram">
+	<a href="https://instagram.com/mikeandmoll/" target="_blank">
+		<img src="img/instagram12.png">
+	</a>
+</div>
+
+
+</body>
+
+</html>
