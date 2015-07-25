@@ -26,7 +26,7 @@
 	  background-image: url(img/tall_winter_birch.png), none;
 	  background-repeat: no-repeat;
 	  background-position: center top;
-	  height: 12000px;
+	  height: 18000px;
 	  -ms-interpolation-mode: bicubic;
 	  image-rendering: -moz-crisp-edges;
 
@@ -35,20 +35,7 @@
 	}
 
 	html{
-		/*
-		background: rgba(157,221,208,1);
-		background: -moz-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
-		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(157,221,208,1)), color-stop(50%, rgba(113,193,178,1)), color-stop(100%, rgba(157,221,208,1)));
-		background: -webkit-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
-		background: -o-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
-		background: -ms-linear-gradient(left, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
-		background: linear-gradient(to right, rgba(157,221,208,1) 0%, rgba(113,193,178,1) 50%, rgba(157,221,208,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dddd0', endColorstr='#9dddd0', GradientType=1 );
-		*/
-		background: #d99260;
-
-	
-		
+		background: #d99260;	
 	}
 
 	.venue {
@@ -109,34 +96,108 @@
 	.hashtag {
 		position: absolute;
 		top: 2370px;
-		left: 0%;
-		width: 45%;
-		height: 210px;
+		left: 0px;
+		width: 49%;
+		height: 200px;
 	}
-	
+
+
 	.hashtag:hover { 
     	background-color: yellow;
     	opacity: 0.05;
 	}
 
+
+	.divider_1 {
+		position: absolute;
+		top: 2370px;
+		left: 0%;
+		width: 100%;
+		height: 810px;
+		background-color: transparent;
+		background: url(img/divider_2.png);
+	  	background-image: url(img/divider_2.png), none;
+	  	background-repeat: repeat-x;
+	  	background-position: center top;
+	  	z-index: -1;
+	  	
+	}
+
+	.divider_2 {
+		position: absolute;
+		top: 11630px;
+		left: 0%;
+		width: 100%;
+		height: 810px;
+		background-color: transparent;
+		background: url(img/divider_2.png);
+	  	background-image: url(img/divider_2.png), none;
+	  	background-repeat: repeat-x;
+	  	background-position: center top;
+	  	z-index: -1;
+	  	
+	}
+	
+
+	.livebackground{
+		position: absolute;
+		top: 2370px;
+		left: 0%;
+		width: 100%;
+		height: 9400px;
+		background-color: #CBCACF;
+		z-index: -2;
+	}
+
+	.registrybackground{
+		position: absolute;
+		top: 11630px;
+		left: 0%;
+		width: 100%;
+		height: 2200px;
+		background-color: #C1AD9A;
+		z-index: -2;
+	}
+
+
+
+	.lower_bg {
+		position: absolute;
+		top: 11630px;
+		left: 0%;
+		width: 100%;
+		height: 8000px;
+		background: url(img/tall_winter_birch_bottom.png);
+	  	background-image: url(img/tall_winter_birch_bottom.png), none;
+	  	background-repeat: no-repeat;
+	  	background-position: center top;
+
+	  	-ms-interpolation-mode: bicubic;
+	  	image-rendering: -moz-crisp-edges;
+
+	  	margin-top: 0px;
+	}
+
+	@media (max-width:1020px){
+		.lower_bg {
+			width: 1020;
+		}
+	}
+
 	.footy{
 		position: absolute;
-		top: 11650px;
+		top: 17200px;
 		background:url(img/see_you_there.png);
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		height: 500px;
 		width: 1100px;
-		
 	}
-	
-
-
 
 </style>
 </head>
-<body>
-<div ng-app="myApp" ng-controller="Example">
+<body ng-app="myApp" ng-controller="Example">
+<div >
 	<div class="container" style='height: 2600px;'>
       
 	</div>
@@ -194,7 +255,7 @@
 </div>
 
 <div class="registry">
-	<a href="http://www.amazon.com/gp/registry/wedding/ZXE1578HNG68" target="_blank">
+	<a ng-click="gotoElement('registrybackground')">
 		<div style="width:100%; height: 100%"></div>
 	</a>
 </div>
@@ -209,6 +270,19 @@
 		<div style="width:100%; height: 100%"></div>
 	</a>
 </div>
+
+<div class="divider_1">
+</div>
+<div class="livebackground">
+</div>
+<div class="divider_2">
+</div>
+<div class="lower_bg">
+</div>
+
+<div class="registrybackground" id='registrybackground'>
+</div>
+
 
 <div class="footy">
 	
