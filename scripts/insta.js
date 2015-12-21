@@ -24,7 +24,7 @@ var app = angular.module("myApp", [])
         }
     ])
     .controller("Example", function($scope, $interval, instagram, $location, anchorSmoothScroll) {
-      var max_limit = 20;
+      var max_limit = 100;
       $scope.pics = [];
       $scope.have = [];
       $scope.orderBy = "-likes.count";

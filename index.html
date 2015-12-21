@@ -26,30 +26,31 @@
 	  background-image: url(img/tall_winter_birch.png), none;
 	  background-repeat: no-repeat;
 	  background-position: center top;
-	  height: 16700px;
+	  height: 2900px;
 	  -ms-interpolation-mode: bicubic;
 	  image-rendering: -moz-crisp-edges;
 	  max-width: 100%;
 	  margin-top: 0px;
-	
 	}
 
 	html{
-		 background: -moz-linear-gradient(top,  #a7d3db 0%, #cfddc9 88%, #e2e3ce 94%, #fceabd 100%); /* FF3.6+ */
+		background: -moz-linear-gradient(top,  #a7d3db 0%, #cfddc9 78%, #e2e3ce 88%, #fceabd 100%); /* FF3.6+ */
 
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d3db), color-stop(88%,#cfddc9), color-stop(94%,#e2e3ce), color-stop(100%,#fceabd)); /* Chrome,Safari4+ */
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d3db), color-stop(78%,#cfddc9), color-stop(88%,#e2e3ce), color-stop(100%,#fceabd)); /* Chrome,Safari4+ */
 
-    background: -webkit-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* Chrome10+,Safari5.1+ */
+	    background: -webkit-linear-gradient(top,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* Chrome10+,Safari5.1+ */
 
-    background: -o-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* Opera 11.10+ */
+	    background: -o-linear-gradient(top,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* Opera 11.10+ */
 
-    background: -ms-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* IE10+ */
+	    background: -ms-linear-gradient(top,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* IE10+ */
 
-    background: linear-gradient(to bottom,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* W3C */
+	    background: linear-gradient(to bottom,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* W3C */
 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d3db', endColorstr='#fceabd',GradientType=0 ); /* IE6-8 */
-		max-width: 100%;
-    	overflow-x: hidden;	
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d3db', endColorstr='#fceabd',GradientType=0 ); /* IE6-8 */
+			max-width: 100%;
+	    	overflow-x: hidden;	
+
+	    background-repeat: no-repeat;
 	}
 
 	.venue {
@@ -117,47 +118,6 @@
     	opacity: 0.05;
 	}
 
-	.divider_1 {
-		position: absolute;
-		top: 2370px;
-		left: 0%;
-		width: 100%;
-		height: 810px;
-		background-color: transparent;
-		background: url(img/divider_2.png);
-	  	background-image: url(img/divider_2.png), none;
-	  	background-repeat: repeat-x;
-	  	background-position: center top;
-	  	z-index: -1; 	
-	}
-
-	.divider_2 {
-		position: absolute;
-		top: 11630px;
-		left: 0%;
-		width: 100%;
-		height: 810px;
-		background-color: transparent;
-		background: url(img/divider_2.png);
-	  	background-image: url(img/divider_2.png), none;
-	  	background-repeat: repeat-x;
-	  	background-position: center top;
-	  	z-index: -1;  	
-	}
-
-	.divider_3 {
-		position: absolute;
-		top: 12830px;
-		left: 0%;
-		width: 100%;
-		height: 810px;
-		background-color: transparent;
-		background: url(img/divider_2.png);
-	  	background-image: url(img/divider_2.png), none;
-	  	background-repeat: repeat-x;
-	  	background-position: center top;
-	  	z-index: -1;  	
-	}
 	
 	.livebackground{
 		position: absolute;
@@ -204,26 +164,26 @@
 
 	.footy{
 		position: absolute;
-		top: 15980px;
+		top: 2660px;
 		background:url(img/see_you_there.png);
 		background-repeat: no-repeat;
 	  	background-position: center bottom;
-		height: 600px;
+		height: 550px;
 		width: 1100px;
 	}
 
 	.ground{
 		width: 2000px;
 		position: relative;
-		top: 10px;
-		left: -300px;
+		top: 0px;
+		left: -400px;
 	}
 
 
 
 </style>
 </head>
-<body ng-app="myApp" ng-controller="Example">
+<body ng-app="myApp" >
 <div >
 	<div class="container" style='height: 2600px;'>
       
@@ -268,7 +228,7 @@
 </div>
 
 
-  
+
 
 <div class="venue">
 	<a href="https://www.google.com/maps/dir//Penns+Peak+Restaurant,+304+Maury+Road,+Jim+Thorpe,+PA+18229/@40.8836523,-75.7170521,13z/" target="_blank">
@@ -288,6 +248,7 @@
 		<div style="width:100%; height: 100%"></div>
 	</a>
 </div>
+
 <div class="instagram">
 	<a href="https://instagram.com/mikeandmoll/" target="_blank">
 		<div style="width:100%; height: 100%"></div>
@@ -295,16 +256,10 @@
 </div>
 
 <div class="hashtag">
-	<a href="https://instagram.com/explore/tags/taphitched/" target="_blank">
+	<a href="https://tap-hitched.github.io/live-feed/" target="_blank">
 		<div style="width:100%; height: 100%"></div>
 	</a>
 </div>
-
-
-
-<div class="lower_bg">
-</div>
-
 
 
 <div class="footy">
