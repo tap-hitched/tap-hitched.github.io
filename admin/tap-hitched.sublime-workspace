@@ -1,0 +1,1072 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rt",
+				"return"
+			],
+			[
+				"cu",
+				"current"
+			],
+			[
+				"g",
+				"gnode"
+			],
+			[
+				"lik",
+				"linktext"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"tar",
+				"target"
+			],
+			[
+				"an",
+				"animate"
+			],
+			[
+				"pl",
+				"planeX"
+			],
+			[
+				"trans",
+				"translateX"
+			],
+			[
+				"grid",
+				"gridX"
+			],
+			[
+				"lin",
+				"lineXZ"
+			],
+			[
+				"y",
+				"ylim"
+			],
+			[
+				"sca",
+				"scatterPlot"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"ci",
+				"current_position"
+			],
+			[
+				"da",
+				"total_data"
+			],
+			[
+				"n",
+				"num_cluster"
+			],
+			[
+				"r",
+				"rect	svg:rect"
+			],
+			[
+				"tot",
+				"total_data"
+			],
+			[
+				"st",
+				"isStillMoving"
+			],
+			[
+				"get",
+				"get_cluster"
+			],
+			[
+				"ne",
+				"newPoint"
+			],
+			[
+				"to",
+				"total_data"
+			],
+			[
+				"lo",
+				"lowest_sample_point"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"cl",
+				"clusterNumber"
+			],
+			[
+				"te",
+				"text-anchor"
+			],
+			[
+				"tr",
+				"translate_speed"
+			],
+			[
+				"tan",
+				"transform"
+			],
+			[
+				"i",
+				"is_on"
+			],
+			[
+				"a",
+				"attr	selection.attr"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"state",
+				"state_a"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"annot",
+				"annotation"
+			],
+			[
+				"z",
+				"zboost"
+			],
+			[
+				"qi",
+				"questions"
+			],
+			[
+				"re",
+				"refinery_capacity"
+			],
+			[
+				"in",
+				"inplace"
+			],
+			[
+				"c",
+				"cumsum"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"conf",
+				"config"
+			],
+			[
+				"ai",
+				"aidpath_d"
+			],
+			[
+				"aid",
+				"aidpath_d"
+			],
+			[
+				"E",
+				"Extra"
+			],
+			[
+				"confi",
+				"config_path"
+			],
+			[
+				"ter",
+				"terminal_id"
+			],
+			[
+				"b",
+				"biomass"
+			],
+			[
+				"DE",
+				"destination"
+			],
+			[
+				"sec",
+				"scenario"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"IN",
+				"INDEX"
+			],
+			[
+				"Tabl",
+				"TABLE"
+			],
+			[
+				"node",
+				"node_id"
+			],
+			[
+				"pet",
+				"petroleum"
+			],
+			[
+				"etoh",
+				"etoh_refineries"
+			],
+			[
+				"fa",
+				"facility_locations_about_cities"
+			],
+			[
+				"new",
+				"new_construction"
+			],
+			[
+				"mi",
+				"million_gals_diesel_2012"
+			],
+			[
+				"coun",
+				"county_pop_totals"
+			],
+			[
+				"ST_D",
+				"ST_DWITHIN"
+			],
+			[
+				"ST",
+				"ST_DWITHIN"
+			],
+			[
+				"for",
+				"forest"
+			],
+			[
+				"no",
+				"no_food"
+			],
+			[
+				"ST_",
+				"ST_Centroid"
+			],
+			[
+				"Co",
+				"COLUMN"
+			],
+			[
+				"bio",
+				"biodiesel_refineries"
+			],
+			[
+				"EX",
+				"EXISTS"
+			],
+			[
+				"nod",
+				"node_id"
+			],
+			[
+				"k",
+				"kg_ghg"
+			],
+			[
+				"de",
+				"destination"
+			],
+			[
+				"or",
+				"origin"
+			],
+			[
+				"term",
+				"term_gid"
+			],
+			[
+				"the",
+				"the_geom"
+			],
+			[
+				"S",
+				"ST_Centroid"
+			],
+			[
+				"pa",
+				"packageName"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"cs",
+				"csv_to_flare"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"t",
+				"target	Attr"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mag",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Da",
+				"DataFrame"
+			],
+			[
+				"wei",
+				"weight_size"
+			],
+			[
+				"veh",
+				"veh_list"
+			],
+			[
+				"ef",
+				"ef_list"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"com",
+				"commodity"
+			],
+			[
+				"gr",
+				"graph"
+			],
+			[
+				"data",
+				"dataNest"
+			],
+			[
+				"dat",
+				"dataNest"
+			],
+			[
+				"sced",
+				"schedule"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"dri",
+				"drivescheduleid"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"dr",
+				"drivescheduleid"
+			],
+			[
+				"B",
+				"BSFC"
+			],
+			[
+				"sc",
+				"Schedule_ID"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"stro",
+				"stroke-dasharray"
+			],
+			[
+				"p",
+				"p_tot"
+			],
+			[
+				"ghg",
+				"ghgsum"
+			],
+			[
+				"__",
+				"__ghg__"
+			],
+			[
+				"len",
+				"length-1"
+			],
+			[
+				"d",
+				"data0"
+			],
+			[
+				"tes",
+				"testAjax"
+			],
+			[
+				"styles",
+				"stylesheets"
+			],
+			[
+				"Inn",
+				"innerRadius"
+			],
+			[
+				"ns",
+				"nstart"
+			],
+			[
+				"di",
+				"distance"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"nst",
+				"nstart-1"
+			],
+			[
+				"web",
+				"webapp2"
+			],
+			[
+				"render",
+				"render_template"
+			],
+			[
+				"write",
+				"writerow"
+			],
+			[
+				"Cs",
+				"CSVtoDB"
+			],
+			[
+				"EV",
+				"EV_Scenario"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Mike/tap-hitched",
+		"/Users/Mike/tap-hitched/tap-hitched.github.io"
+	],
+	"file_history":
+	[
+		"/Users/Mike/Desktop/dijkstra/test.csv",
+		"/Users/Mike/Desktop/dijkstra/cities.tsv",
+		"/Users/Mike/Desktop/3d/OrbitControls.js",
+		"/Users/Mike/Desktop/3d/surface3d.js",
+		"/Users/Mike/Desktop/3d/three.js",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Figures/ternary_of_co2_pm_nox_tradeoffs.py",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE268E/cluster demo/kmeans_full_demo.py",
+		"/Users/Mike/bl.ocks/assignvariable/README.md",
+		"/Users/Mike/bl.ocks/ifthen/README.md",
+		"/Users/Mike/bl.ocks/forloop/index.html",
+		"/Users/Mike/Google Drive/Apps/Jake-Live/node_modules/kittydar/node_modules/brain/lib/neuralnetwork.js",
+		"/Users/Mike/Google Drive/iOS Apps/Jake-Live/node_modules/kittydar/training/collection/simple_positive.js",
+		"/Users/Mike/Google Drive/iOS Apps/Jake-Live/node_modules/kittydar/training/collection/make-positives.js",
+		"/Users/Mike/Desktop/test/app.js",
+		"/Users/Mike/Google Drive/iOS Apps/Jake-Live/background.txt",
+		"/Users/Mike/Google Drive/water_Mike_Olga/Group Project/model/util/pyHDBSCAN.py",
+		"/Users/Mike/Google Drive/water_Mike_Olga/Group Project/model/util/pyCluster.py",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/models/Questions.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/node_modules/mongoose/static.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/views/index.ejs",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/public/javascripts/angularApp.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/views/index.html",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/routes/index.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/models/Posts.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/models/Comments.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/app.js",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/views/untitled.html",
+		"/Users/Mike/Google Drive/iOS Apps/lecturejs/readme.md",
+		"/Users/Mike/Google Drive/iOS Apps/Lecturejs/Server/models/Comments.js",
+		"/Users/Mike/Google Drive/iOS Apps/Lecturejs/Server/app.js",
+		"/Users/Mike/Desktop/react-tutorial-master/public/index.html",
+		"/Users/Mike/Google Drive/iOS Apps/TapMap/Server/app.js",
+		"/Users/Mike/Google Drive/iOS Apps/TapMap/Server/controller.js",
+		"/Users/Mike/Google Drive/iOS Apps/TapMap/Server/public/index.html",
+		"/Users/Mike/Google Drive/iOS Apps/TapMap/Server/public/hello world!",
+		"/Users/Mike/Desktop/react/React with D3/index.html",
+		"/Users/Mike/collect_craigslist_cars/tc2o.py",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Model/dropin_scaleup_model.py",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_usa_feedstocks_itermodal_forest.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_usa_feedstocks_itermodal_crops.sql",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/bioproducts_R_model copy/io_tables/impact_vectors/impact_vector_working.xlsx",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Icon",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/makegrid_2d.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_california_feedstocks_hwy_forest.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_california_feedstocks_hwy_crops.sql",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Model/utils/summarize.py",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Model/utils/sqlalchemy_declarative.py",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_california_feedstocks_hwy.sql",
+		"/Users/Mike/Desktop/xddd.py",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_sjk_california_feedstocks_intermodal.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_sjk_california_feedstocks_hwy.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_california_feedstocks_itermodal_forest.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_california_feedstocks_itermodal_crops.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_sjk_california_feedstocks_intermodal_pipeline.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_downstream_k_locations.sql",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Model/Test/config_template.ini",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Model/utils/server_data.py",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/SCENARIO_cij_california_feedstocks_itermodal_forrest.sql",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Model/config/test.ini",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/create_carb_dropin_fuel_network.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/results_closest_fuel_terminal_to_gas_station.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/biorefinery_locations_base_on_cities.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/fuel_demand_serice_areas.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/test.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/make_county_centroid_to_network_bridge.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/make_COCC_to_network_bridge.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/allocate_fuel_to_demand_service_areas.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/add_gas_stations_to_network.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/county_centers_on_forested_land.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/_Readme - Steps to Fuel Distribution Network.txt",
+		"/Users/Mike/Documents/scripts/PostGIS/Freightsheds/SCENARIO_cij_california_feedstocks.sql",
+		"/Volumes/Mike_external/Projects/CARB Drop In Fuel 2015/Data/readme.md",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Data/Fuel Demand/ca_county_diesel_sales.csv",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/allocate_fuel_to_demand_service_areas",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Data/Fuel Demand/ca_county_gasoline_sales.csv",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Data/Fuel Demand/citation.txt",
+		"/Users/Mike/Downloads/bulk/emfac2014_v1.0.7/db/emfac2014_default_193.sql",
+		"/Users/Mike/Dropbox/UCB Classes/FA2015/Scalable Spatial Analysis/Midterm/pgRouting_taxi_fare_bayarea.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/Create map using us-atlas Makefile.txt",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_distance_matrix.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_solid_biomas_inventory.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/visualize_distance_matrix.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/Create estimates for freight network.txt",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Figures/comparing_feedstock_accessibility.py",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/_Readme - Steps to build project.txt",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_crop_oriented_county_centers_COCC.sql",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Figures/clostest_fuel_terminal_from_gas_stations_ca.py",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/county_centers_on_cultivated_land.sql",
+		"/Users/Mike/Google Drive/water_Mike_Olga/Scripts/liblas/Download LIDAR Data for NYC.txt",
+		"/Users/Mike/Google Drive/water_Mike_Olga/Scripts/liblas/Internet Tutorials.txt",
+		"/Users/Mike/Google Drive/water_Mike_Olga/Scripts/liblas/Installation Instructions iOS",
+		"/Users/Mike/Dropbox/UCB Classes/FA2015/Scalable Spatial Analysis/Lecture Notes/3 Clustering Websites.txt",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/make_COCC_to_network_bridge",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/ST_dikstra_short_distance.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_biogas_inventory.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_crop_oriented_county_centers.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/build_county_attributes.sql",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Data/Biomass Resource/NREL/citations.txt",
+		"/Users/Mike/Desktop/t.py",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Mike/Data/Biogas/parse_location.py",
+		"/Users/Mike/Documents/scripts/PostGIS/Freightsheds/ST_Freightshed.sql",
+		"/Users/Mike/Documents/scripts/PostGIS/Freightsheds/Show Results of Freightshed Assessment.txt",
+		"/Users/Mike/Documents/scripts/PostGIS/California Carbon to Fuel/get_grid_samples_for_gmaps_gas_stations.sql",
+		"/Users/Mike/google_place_download/grab_gas_stations.py",
+		"/Users/Mike/Google Drive/w2wioapp/views/home_beta.html",
+		"/Users/Mike/Google Drive/water_Mike_Olga/Group Project/Data Sources.txt",
+		"/Volumes/Mike_external/Data/Cropland Data Layer/CDL_2014_06/convert_no-data_to_zero.py",
+		"/Users/Mike/Google Drive/ARB_drop_in_fuels/Python Conversion/scripts/toy.py",
+		"/Users/Mike/Explained_Visually/WaterFacts/popover-html-unsafe-popup.html",
+		"/Users/Mike/Explained_Visually/WaterFacts/setosa.css",
+		"/Users/Mike/Desktop/flare.json",
+		"/Users/Mike/Explained_Visually/WaterFacts/processing/watter_bubble.html",
+		"/Users/Mike/Explained_Visually/WaterFacts/processing/ca_per_capita_consumption.csv",
+		"/Users/Mike/Explained_Visually/WaterFacts/map.js",
+		"/Users/Mike/lecturejs/lecture.css",
+		"/Users/Mike/Explained_Visually/WaterFacts/index.html",
+		"/Users/Mike/Downloads/gem-v1.0-matlab/drive_cycles/tocsv.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/scripts/fuel_model.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/scripts/motion.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/scripts/screen_VIUS.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/parallel_coordintates.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/screenPEMS.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/GHG_footprint_sensitivity.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/ridership_range.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/commodity_bar.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/SFMTAbusridership.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/admin/view_district_level_stats.html",
+		"/Users/Mike/Desktop/viusheaders.csv"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"consol",
+			"path",
+			"px",
+			"selection",
+			"data",
+			"renderer",
+			"lights",
+			"ligts",
+			"controls",
+			"camer",
+			"stats",
+			"0xdddddd",
+			"rota",
+			"renderer",
+			"requestAnimationFrame",
+			"stats",
+			"mesh",
+			"cons",
+			"originalData",
+			"getTransformedData",
+			"transformPoint",
+			"point",
+			"tick",
+			"console.log",
+			"centroids",
+			"conso",
+			"consol",
+			"recalculate_centroids",
+			"get_y",
+			"get_x",
+			"lowest_sample_point",
+			"num_cluster",
+			"total_data",
+			"samples",
+			"k",
+			", u'",
+			": u'",
+			"temp",
+			"flank",
+			"crea",
+			"pleft",
+			"pright",
+			"consol",
+			"leng",
+			"lenf",
+			"crop",
+			"transformCanvas",
+			"getCatDataSync",
+			"writeCanvasToFileSync",
+			"cropFace",
+			"post",
+			"addComment",
+			"create",
+			"PostsCtrl",
+			"$stateParams",
+			"question",
+			"posts",
+			"addComment",
+			"posts",
+			"questions",
+			"addPost",
+			".cr",
+			"router.pos",
+			"comments",
+			"AuthCtrl",
+			"register",
+			"$http",
+			"Ctrl",
+			"PostsCtrl",
+			"g-controller",
+			"PostsCtrl",
+			"AuthCtrl",
+			"consol",
+			"ui",
+			"currentUser",
+			"link",
+			"add a ",
+			"posts.html",
+			"home",
+			"route",
+			"serv",
+			"3000",
+			"location",
+			"use",
+			"Access-Control-Allow-Origin",
+			"res",
+			"sql",
+			"cpath[3:]",
+			"config_root_path",
+			"Not all (demand locations:transport) pairs are considered. Check dimensions.",
+			"allocation",
+			"feedstocks_hwy_crops",
+			"_feedstocks_hwy",
+			"node",
+			"ST_Transform",
+			"petro_t",
+			"terminal",
+			"crude_and_product_pipeline_us",
+			"hwy_gid",
+			"hwy_geom",
+			"union al",
+			"ca_seaports",
+			"forest",
+			"biodie",
+			"	",
+			"*",
+			",",
+			"resonse",
+			"	",
+			",",
+			"*",
+			"vmt",
+			"counties",
+			"b.the_geom",
+			"centr",
+			"portals_fuel_to_pipe_product",
+			"portals_fuel_to",
+			"portals_fuel_to_hwy",
+			"crude_and_product_pipeline_us_B",
+			"portals_fuel_to_pipe_crude",
+			"portals_petro_ref_to_pipe_crude",
+			"crude_and_product_pipeline_us",
+			"termin",
+			"counties",
+			"counti",
+			"count",
+			"trans"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			",",
+			"0xFCFCFC",
+			"0xffffff",
+			"y",
+			"x",
+			", '",
+			": '",
+			"move_left",
+			"move_right",
+			"cpath.replace('../', '')",
+			"cpath",
+			"feedstocks_hwy_forest",
+			"_feedstocks_hwy_crops",
+			"_feedstocks_hwy_crop",
+			"product_pipeline_US",
+			"gid",
+			"pipe_geom",
+			"crop",
+			",",
+			"",
+			"response",
+			",",
+			"",
+			"b.centroid",
+			"','",
+			"DROP TABLE summary",
+			";",
+			"",
+			" text,",
+			"",
+			" text,",
+			"",
+			" text,",
+			"",
+			"<div class='centered well'>",
+			"<div class=\"questionbox\">",
+			"png\" ></p>",
+			"well",
+			"https://raw.githubusercontent.com/mtaptich/WaterFacts/master/PNGs/Slide",
+			"gh-pages",
+			"https://raw.githubusercontent.com/mtaptich/WaterFacts/gh-page/PNGs/Slide",
+			"height:480px; margin-bottom:",
+			"jpg\" style=\"height:500px; margin-bottom:",
+			".jpg\" style=\"height:500px; margin-bottom: -50px;\">",
+			"img/slide",
+			"",
+			"4 - (+d.__weight_size)",
+			"4 - (+d.__weight_size - 2)",
+			".attr(\"height\", y.rangeBand()/3-1);",
+			"y(d.__name) + (+d.__weight_size - 2)*y.rangeBand()/3 - 1",
+			".attr(\"y\", function(d) { return y(d.__name) + (+d.__weight_size -2 )*y.rangeBand()/3); })",
+			".attr(\"y\", function(d) { return y(d.__name)+ (+d._weight_size-2)*y.rangeBand()/3); })",
+			"d.__name",
+			"\",\"",
+			"\",",
+			"\":\"",
+			",",
+			"color.quantiles()",
+			"d[0]",
+			".attr(\"x\", -55)\n	    	.attr(\"y\", -15)",
+			".attr(\"x\", -35)\n	    	.attr(\"y\", -15)",
+			".attr(\"x\", -15)\n	    	.attr(\"y\", -15)",
+			"top: 35",
+			".style(\"font-size\", 20)",
+			".style(\"font-size\", 20).style(\"font-weight\", \"bold\")",
+			" (1,000 kg)",
+			"(1,000 kg)",
+			"1000 kg",
+			".style(\"font-size\", 18).style(\"font-weight\", \"bold\")",
+			".style(\"font-size\", 16).style(\"font-weight\", \"bold\")",
+			".style(\"font-size\", 20).style(\"font-weight\", \"bold\")",
+			"elif(p<12):",
+			"elif(p<10):",
+			"if(p<9):",
+			".style(\"opacity\",0.55)",
+			".style(\"opacity\",0.4)",
+			".text(function(d){ return d[4]})\n				    .style(\"font-size\", 14).style(\"opacity\",0.7)",
+			"//.style(\"stroke\", function(){ if (e > 80){ return \"none\"}else{return  \"#000\"}})",
+			"a.payload, a.totE, a.x",
+			"a.totE",
+			",",
+			"",
+			"mapGHGperkm",
+			"grade=g, bsfc=200",
+			"[round(d[",
+			"[np.sum(np.array(x",
+			"good",
+			"km",
+			"d[\"%(v)s\"]",
+			"d.speed",
+			"d.c8",
+			"d.second",
+			"convertEnd",
+			"translateEnd",
+			"plant_list",
+			"fileout",
+			",",
+			"th PM filter', 9.0] ,",
+			"ro I+II', 40],",
+			" V', 40],",
+			"[ 'Motorcycles 4-stroke', 3]",
+			"\"MC\": [",
+			"'Pass.car diesel with PM filter', 9.0] ",
+			"\"PC\": [",
+			"II', 40]",
+			"\"BUS\": [",
+			"'Bus Euro I+II', 40]",
+			"'Bus Euro I+II', 40",
+			"\"BUS\": [",
+			"'Heavy trucks Euro V', 40]",
+			"\"HDV\": [",
+			"",
+			"country",
+			"countries",
+			"FE",
+			"T7 CAIRP",
+			"DSL",
+			"T6 CAIRP small",
+			"UBUS",
+			"truck",
+			"T7 Single",
+			"model",
+			"1.60934, 0]",
+			"[float(data",
+			",",
+			"",
+			"5",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 255.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "tap-hitched.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"import random"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
