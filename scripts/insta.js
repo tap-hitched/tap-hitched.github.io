@@ -30,6 +30,7 @@ var app = angular.module("myApp", [])
       $scope.orderBy = "-likes.count";
       $scope.getMore = function() {
         instagram.fetchPopular(function(data) {
+            //console.log(data)
             for(var i=0; i<max_limit; i++) {
               if (typeof $scope.have[data[i].id]==="undefined") {
                 $scope.pics.push(data[i]) ;

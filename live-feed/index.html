@@ -16,6 +16,7 @@
 
 	.pics {
 		z-index: 100;
+		position: relative;
 	}
 
 	body {
@@ -54,7 +55,7 @@
 
 	.cl1{
 		position: absolute;
-		top: 470px;
+		top: 450px;
 		left: 75%;
 		width: 49%;
 		height: 200px;
@@ -63,11 +64,34 @@
 
 	.cl2{
 		position: absolute;
-		top: 1220px;
+		top: 1350px;
 		left: 0px;
 		width: 49%;
 		height: 200px;
 		z-index: 0;
+	}
+
+	.seemore{
+		margin-top: 50px;
+		height: 100px;
+	    width: 50%;
+	    margin: 0 auto;
+	}
+
+	.heart{
+		position: absolute;
+		right: 40px;
+		top: 20;
+		z-index: 150;
+	}
+
+	.like{
+		position: absolute;
+		right: 16px;
+		top: 30px;
+		z-index: 200;
+		font-size: 14px;
+		color: #fff;
 	}
 
 </style>
@@ -82,7 +106,9 @@
 
 		<div class="col-xs-3 pics" ng-repeat="p in pics" >
 			<a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" class="img-responsive thumbnail well" title="{{p.caption.text}}" style="margin-top: 40px"></a>
-								
+			<p class='heart'> <img src="../img/heart.png" style="width:40px; height=40px;"></p>
+			<p class='like'> {{p.likes.count}}</p>
+							
 		</div>
 
 	</div>
@@ -92,6 +118,12 @@
 	</div>
 	<div class="cl2" >
       <img src="../img/clouds_small.png">
+	</div>
+
+	<div>
+		<div class="seemore" >
+	      <h2><a href='https://www.instagram.com/mikeandmoll/' target="_blank">See more of our pics by clicking here!</a></h2>
+		</div>
 	</div>
 	
 
