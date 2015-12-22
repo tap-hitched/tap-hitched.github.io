@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"rt",
 				"return"
 			],
@@ -392,10 +404,6 @@
 				"ef_list"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"com",
 				"commodity"
 			],
@@ -506,19 +514,43 @@
 			[
 				"write",
 				"writerow"
-			],
-			[
-				"Cs",
-				"CSVtoDB"
-			],
-			[
-				"EV",
-				"EV_Scenario"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/Mike/tap-hitched/tap-hitched.github.io/index.html",
+			"settings":
+			{
+				"buffer_size": 6147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n<link href=\"//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css\" rel=\"stylesheet\">\n<link href=\"//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n<script src=\"//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js\"></script>\n<script src='scripts/insta.js'></script>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://mtaptich.github.io/d3-lessons/css/setosa.css\">\n<style type=\"text/css\">\n\n	.even circle{\n		fill: #95a5a6;\n	}\n\n	.odd circle{\n		fill: #2c3e50;\n	}\n\n	img{\n		position: absolute;\n		z-index: 100;\n	}\n\n	body {\n	  background: url(img/tall_winter_birch.png);\n	  background-image: url(img/tall_winter_birch.png), none;\n	  background-repeat: no-repeat;\n	  background-position: center top;\n	  height: 16400px;\n	  -ms-interpolation-mode: bicubic;\n	  image-rendering: -moz-crisp-edges;\n	  max-width: 100%;\n	  margin-top: 0px;\n	\n	}\n\n	html{\n		 background: -moz-linear-gradient(top,  #a7d3db 0%, #cfddc9 88%, #e2e3ce 94%, #fceabd 100%); /* FF3.6+ */\n\n    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d3db), color-stop(88%,#cfddc9), color-stop(94%,#e2e3ce), color-stop(100%,#fceabd)); /* Chrome,Safari4+ */\n\n    background: -webkit-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* Chrome10+,Safari5.1+ */\n\n    background: -o-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* Opera 11.10+ */\n\n    background: -ms-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* IE10+ */\n\n    background: linear-gradient(to bottom,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* W3C */\n\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d3db', endColorstr='#fceabd',GradientType=0 ); /* IE6-8 */\n		max-width: 100%;\n    	overflow-x: hidden;	\n	}\n\n	.venue {\n		position: absolute;\n		top: 1220px;\n		left: 0px;\n		width: 49%;\n		height: 200px;\n	}\n\n	.venue:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.sleeping {\n		position: absolute;\n		top: 1480px;\n		left: 55%;\n		width: 45%;\n		height: 200px;\n	}\n\n	.sleeping:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.registry {\n		position: absolute;\n		top: 1720px;\n		left: 0px;\n		width: 49%;\n		height: 200px;\n	}\n\n	.registry:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.instagram {\n		position: absolute;\n		top: 1950px;\n		left: 55%;\n		width: 45%;\n		height: 300px;\n	}\n	\n	.instagram:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.hashtag {\n		position: absolute;\n		top: 2370px;\n		left: 0px;\n		width: 49%;\n		height: 200px;\n	}\n\n	.hashtag:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.divider_1 {\n		position: absolute;\n		top: 2370px;\n		left: 0%;\n		width: 100%;\n		height: 810px;\n		background-color: transparent;\n		background: url(img/divider_2.png);\n	  	background-image: url(img/divider_2.png), none;\n	  	background-repeat: repeat-x;\n	  	background-position: center top;\n	  	z-index: -1; 	\n	}\n\n	.divider_2 {\n		position: absolute;\n		top: 11630px;\n		left: 0%;\n		width: 100%;\n		height: 810px;\n		background-color: transparent;\n		background: url(img/divider_2.png);\n	  	background-image: url(img/divider_2.png), none;\n	  	background-repeat: repeat-x;\n	  	background-position: center top;\n	  	z-index: -1;  	\n	}\n\n	.divider_3 {\n		position: absolute;\n		top: 12830px;\n		left: 0%;\n		width: 100%;\n		height: 810px;\n		background-color: transparent;\n		background: url(img/divider_2.png);\n	  	background-image: url(img/divider_2.png), none;\n	  	background-repeat: repeat-x;\n	  	background-position: center top;\n	  	z-index: -1;  	\n	}\n	\n	.livebackground{\n		position: absolute;\n		top: 2370px;\n		left: 0%;\n		width: 100%;\n		height: 9400px;\n		background-color: #CBCACF;\n		z-index: -2;\n	}\n\n	.registrybackground{\n		position: absolute;\n		top: 11630px;\n		left: 0%;\n		width: 100%;\n		height: 1200px;\n		background-color: #C1AD9A;\n		z-index: -2;\n	}\n\n	.lower_bg {\n		position: absolute;\n		top: 11630px;\n		left: 0%;\n		width: 100%;\n		height: 400px;\n		background: url(img/tall_winter_birch_bottom.png);\n	  	background-image: url(img/tall_winter_birch_bottom.png), none;\n	  	background-repeat: no-repeat;\n	  	background-position: center top;\n\n	  	-ms-interpolation-mode: bicubic;\n	  	image-rendering: -moz-crisp-edges;\n	  	overflow-x: hidden;\n	  	margin-top: 0px;\n	}\n\n	@media (max-width:1020px){\n		.lower_bg {\n			width: 1020;\n		}\n	}\n\n	.footy{\n		position: absolute;\n		top: 17200px;\n		background:url(img/see_you_there.png);\n		background-repeat: no-repeat;\n	  	background-position: center top;\n		height: 500px;\n		width: 1100px;\n	}\n\n\n\n</style>\n</head>\n<body ng-app=\"myApp\" ng-controller=\"Example\">\n<div >\n	<div class=\"container\" style='height: 2600px;'>\n      \n	</div>\n\n\n    <div class=\"container\">\n      \n        <div class=\"row\">\n\n			<div class=\"col-xs-12\" ng-repeat=\"p in pics\" >\n				<div ng-if=\"$even\">\n					<div class=\"col-xs-5\" >\n						<a href=\"{{p.link}}\" target=\"_blank\"><img ng-src=\"{{p.images.low_resolution.url}}\" class=\"img-responsive thumbnail well\" title=\"{{p.caption.text}}\" style=\"margin-top: 40px\"></a>\n										\n					</div>  \n					<div class=\"col-xs-2\" >\n					\n					</div>   \n					<div class=\"col-xs-5\" >\n					\n					</div>  \n				</div>\n				<div ng-if=\"$odd\">\n					<div class=\"col-xs-5\" >\n						\n					</div> \n					<div class=\"col-xs-2\" >\n					\n					</div>  \n					<div class=\"col-xs-5\" >\n						<a href=\"{{p.link}}\" target=\"_blank\"><img ng-src=\"{{p.images.low_resolution.url}}\" class=\"img-responsive thumbnail well\" title=\"{{p.caption.text}}\" style=\"margin-top: 40px\"></a>	\n					</div>   	\n				</div>\n	        </div>\n\n        </div>\n    </div>\n  \n\n</div>\n\n\n  \n\n<div class=\"venue\">\n	<a href=\"https://www.google.com/maps/dir//Penns+Peak+Restaurant,+304+Maury+Road,+Jim+Thorpe,+PA+18229/@40.8836523,-75.7170521,13z/\" target=\"_blank\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n\n<div class=\"sleeping\">\n	<a href=\"https://www.google.com/maps/search/hotels/@40.8424675,-75.6706981,13z\" target=\"_blank\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n<div class=\"registry\">\n	<a ng-click=\"gotoElement('registrybackground')\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n<div class=\"instagram\">\n	<a href=\"https://instagram.com/mikeandmoll/\" target=\"_blank\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n<div class=\"hashtag\">\n	<a href=\"https://instagram.com/explore/tags/taphitched/\" target=\"_blank\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n\n\n<div class=\"lower_bg\">\n</div>\n\n\n\n<div class=\"footy\">\n	\n</div>\n\n\n</body>\n\n</html>",
+			"settings":
+			{
+				"buffer_size": 6595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n<link href=\"//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css\" rel=\"stylesheet\">\n<link href=\"//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n<script src=\"//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js\"></script>\n<script src='scripts/insta.js'></script>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://mtaptich.github.io/d3-lessons/css/setosa.css\">\n<style type=\"text/css\">\n\n	.even circle{\n		fill: #95a5a6;\n	}\n\n	.odd circle{\n		fill: #2c3e50;\n	}\n\n	img{\n		position: absolute;\n		z-index: 100;\n	}\n\n	body {\n	  background: url(img/tall_winter_birch.png);\n	  background-image: url(img/tall_winter_birch.png), none;\n	  background-repeat: no-repeat;\n	  background-position: center top;\n	  height: 2900px;\n	  -ms-interpolation-mode: bicubic;\n	  image-rendering: -moz-crisp-edges;\n	  max-width: 100%;\n	  margin-top: 0px;\n	}\n\n	html{\n		background: -moz-linear-gradient(top,  #a7d3db 0%, #cfddc9 78%, #e2e3ce 88%, #fceabd 100%); /* FF3.6+ */\n\n	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d3db), color-stop(78%,#cfddc9), color-stop(88%,#e2e3ce), color-stop(100%,#fceabd)); /* Chrome,Safari4+ */\n\n	    background: -webkit-linear-gradient(top,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* Chrome10+,Safari5.1+ */\n\n	    background: -o-linear-gradient(top,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* Opera 11.10+ */\n\n	    background: -ms-linear-gradient(top,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* IE10+ */\n\n	    background: linear-gradient(to bottom,  #a7d3db 0%,#cfddc9 78%,#e2e3ce 88%,#fceabd 100%); /* W3C */\n\n	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d3db', endColorstr='#fceabd',GradientType=0 ); /* IE6-8 */\n			max-width: 100%;\n	    	overflow-x: hidden;	\n\n	    background-repeat: no-repeat;\n	}\n\n	.venue {\n		position: absolute;\n		top: 1220px;\n		left: 0px;\n		width: 49%;\n		height: 200px;\n	}\n\n	.venue:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.sleeping {\n		position: absolute;\n		top: 1480px;\n		left: 55%;\n		width: 45%;\n		height: 200px;\n	}\n\n	.sleeping:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.registry {\n		position: absolute;\n		top: 1720px;\n		left: 0px;\n		width: 49%;\n		height: 200px;\n	}\n\n	.registry:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.instagram {\n		position: absolute;\n		top: 1950px;\n		left: 55%;\n		width: 45%;\n		height: 300px;\n	}\n	\n	.instagram:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.hashtag {\n		position: absolute;\n		top: 2370px;\n		left: 0px;\n		width: 49%;\n		height: 200px;\n	}\n\n	.hashtag:hover { \n    	background-color: yellow;\n    	opacity: 0.05;\n	}\n\n	.divider_1 {\n		position: absolute;\n		top: 2370px;\n		left: 0%;\n		width: 100%;\n		height: 810px;\n		background-color: transparent;\n		background: url(img/divider_2.png);\n	  	background-image: url(img/divider_2.png), none;\n	  	background-repeat: repeat-x;\n	  	background-position: center top;\n	  	z-index: -1; 	\n	}\n\n	.divider_2 {\n		position: absolute;\n		top: 11630px;\n		left: 0%;\n		width: 100%;\n		height: 810px;\n		background-color: transparent;\n		background: url(img/divider_2.png);\n	  	background-image: url(img/divider_2.png), none;\n	  	background-repeat: repeat-x;\n	  	background-position: center top;\n	  	z-index: -1;  	\n	}\n\n	.divider_3 {\n		position: absolute;\n		top: 12830px;\n		left: 0%;\n		width: 100%;\n		height: 810px;\n		background-color: transparent;\n		background: url(img/divider_2.png);\n	  	background-image: url(img/divider_2.png), none;\n	  	background-repeat: repeat-x;\n	  	background-position: center top;\n	  	z-index: -1;  	\n	}\n	\n	.livebackground{\n		position: absolute;\n		top: 2370px;\n		left: 0%;\n		width: 100%;\n		height: 9400px;\n		background-color: #CBCACF;\n		z-index: -2;\n	}\n\n	.registrybackground{\n		position: absolute;\n		top: 11630px;\n		left: 0%;\n		width: 100%;\n		height: 1200px;\n		background-color: #C1AD9A;\n		z-index: -2;\n	}\n\n	.lower_bg {\n		position: absolute;\n		top: 11630px;\n		left: 0%;\n		width: 100%;\n		height: 4500px;\n		background: url(img/tall_winter_birch_bottom.png);\n	  	background-image: url(img/tall_winter_birch_bottom.png), none;\n	  	background-repeat: no-repeat;\n	  	background-position: center top;\n\n	  	-ms-interpolation-mode: bicubic;\n	  	image-rendering: -moz-crisp-edges;\n	  	overflow-x: hidden;\n	  	margin-top: 0px;\n	}\n\n	@media (max-width:1020px){\n		.lower_bg {\n			width: 1020;\n		}\n	}\n\n	.footy{\n		position: absolute;\n		top: 2660px;\n		background:url(img/see_you_there.png);\n		background-repeat: no-repeat;\n	  	background-position: center bottom;\n		height: 550px;\n		width: 1100px;\n	}\n\n	.ground{\n		width: 2000px;\n		position: relative;\n		top: 0px;\n		left: -400px;\n	}\n\n\n\n</style>\n</head>\n<body ng-app=\"myApp\" >\n<div >\n	<div class=\"container\" style='height: 2600px;'>\n      \n	</div>\n\n\n    <div class=\"container\">\n      \n        <div class=\"row\">\n\n			<div class=\"col-xs-12\" ng-repeat=\"p in pics\" >\n				<div ng-if=\"$even\">\n					<div class=\"col-xs-5\" >\n						<a href=\"{{p.link}}\" target=\"_blank\"><img ng-src=\"{{p.images.low_resolution.url}}\" class=\"img-responsive thumbnail well\" title=\"{{p.caption.text}}\" style=\"margin-top: 40px\"></a>\n										\n					</div>  \n					<div class=\"col-xs-2\" >\n					\n					</div>   \n					<div class=\"col-xs-5\" >\n					\n					</div>  \n				</div>\n				<div ng-if=\"$odd\">\n					<div class=\"col-xs-5\" >\n						\n					</div> \n					<div class=\"col-xs-2\" >\n					\n					</div>  \n					<div class=\"col-xs-5\" >\n						<a href=\"{{p.link}}\" target=\"_blank\"><img ng-src=\"{{p.images.low_resolution.url}}\" class=\"img-responsive thumbnail well\" title=\"{{p.caption.text}}\" style=\"margin-top: 40px\"></a>	\n						\n					</div>   	\n				</div>\n	        </div>\n\n        </div>\n    </div>\n  \n\n</div>\n\n\n\n\n<div class=\"venue\">\n	<a href=\"https://www.google.com/maps/dir//Penns+Peak+Restaurant,+304+Maury+Road,+Jim+Thorpe,+PA+18229/@40.8836523,-75.7170521,13z/\" target=\"_blank\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n\n<div class=\"sleeping\">\n	<a href=\"https://www.google.com/maps/search/hotels/@40.8424675,-75.6706981,13z\" target=\"_blank\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n<div class=\"registry\">\n	<a ng-click=\"gotoElement('registrybackground')\">\n		<div style=\"width:100%; height: 100%\"></div>\n	</a>\n</div>\n\n\n<div class=\"footy\">\n	<img src=\"img/ground@2x.png\" class=\"ground\">\n</div>\n\n\n</body>\n\n</html>",
+			"settings":
+			{
+				"buffer_size": 6406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/tap-hitched/tap-hitched.github.io/live-feed/index.html",
+			"settings":
+			{
+				"buffer_size": 3278,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -556,10 +588,15 @@
 	"expanded_folders":
 	[
 		"/Users/Mike/tap-hitched",
-		"/Users/Mike/tap-hitched/tap-hitched.github.io"
+		"/Users/Mike/tap-hitched/tap-hitched.github.io",
+		"/Users/Mike/tap-hitched/tap-hitched.github.io/img",
+		"/Users/Mike/tap-hitched/tap-hitched.github.io/live-feed",
+		"/Users/Mike/tap-hitched/tap-hitched.github.io/scripts"
 	],
 	"file_history":
 	[
+		"/Users/Mike/tap-hitched/tap-hitched.github.io/scripts/insta.js",
+		"/Users/Mike/tap-hitched/tap-hitched.github.io/img/see_you_there.ai",
 		"/Users/Mike/Desktop/dijkstra/test.csv",
 		"/Users/Mike/Desktop/dijkstra/cities.tsv",
 		"/Users/Mike/Desktop/3d/OrbitControls.js",
@@ -685,13 +722,11 @@
 		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/GHG_footprint_sensitivity.html",
 		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/ridership_range.html",
 		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/commodity_bar.html",
-		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/SFMTAbusridership.html",
-		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/admin/view_district_level_stats.html",
-		"/Users/Mike/Desktop/viusheaders.csv"
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/SFMTAbusridership.html"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -705,6 +740,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fetchPopular",
+			"max",
+			"contain",
+			"wid",
+			"live",
 			" ",
 			"consol",
 			"path",
@@ -827,12 +867,7 @@
 			"crude_and_product_pipeline_us_B",
 			"portals_fuel_to_pipe_crude",
 			"portals_petro_ref_to_pipe_crude",
-			"crude_and_product_pipeline_us",
-			"termin",
-			"counties",
-			"counti",
-			"count",
-			"trans"
+			"crude_and_product_pipeline_us"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -978,14 +1013,129 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/Mike/tap-hitched/tap-hitched.github.io/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								929,
+								929
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 367.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5572,
+								5572
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5762,
+								5762
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Mike/tap-hitched/tap-hitched.github.io/live-feed/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2990,
+								2990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2485.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -1025,7 +1175,7 @@
 	"project": "tap-hitched.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1050,11 +1200,15 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"currentYPosition"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
