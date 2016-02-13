@@ -3,9 +3,11 @@ var app = angular.module("mainApp", [])
         var w = angular.element($window);
 
         $scope.bodyWidth = $window.innerWidth
-        
+
         w.bind('resize', function (d) {
+        	console.log('hi')
 			$scope.bodyWidth = $window.innerWidth
+			$scope.$apply()
 		});
 
 
