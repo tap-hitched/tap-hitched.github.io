@@ -1,0 +1,11 @@
+body {
+  background: url(../img/tall_winter_birch.png);
+  background-image: url(../img/tall_winter_birch.png), none;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 2900px;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: -moz-crisp-edges;
+  margin-top: 0px;
+  overflow-x: hidden;	
+}
