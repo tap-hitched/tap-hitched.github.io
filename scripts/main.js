@@ -1,64 +1,24 @@
-var app = angular.module("myApp", [])
-    .filter('fromTo', function() {
-        return function(input, from, total, lessThan) {
-            from = parseInt(from);
-            total = parseInt(total);
-            for (var i = from; i < from + total && i < lessThan; i++) {
-                input.push(i);
-            }
-            return input;
-        }
-    })
-    .factory('instagram', ['$http',
-        function($http) {
-            return {
-                fetchPopular: function(callback) {
+var app = angular.module("mainApp", [])
+	.controller('MainPage',  function($scope, $window){
+        var w = angular.element($window),
+        	bodyWidth = $window.innerWidth;
+        w.bind('resize', function (d) {
+			bodyWidth = $window.innerWidth
+		});
 
-                    var endPoint = "https://api.instagram.com/v1/tags/taphitched/media/recent?access_token=40480112.1fb234f.4866541998fd4656a2e2e2beaa5c4bb1&callback=JSON_CALLBACK";
 
-                    $http.jsonp(endPoint).success(function(response) {
-                        callback(response.data);
-                    });
-                }
-            }
-        }
-    ])
-    .controller("Example", function($scope, $interval, instagram, $location, anchorSmoothScroll) {
-
-      var max_limit = 100;
-      $scope.pics = [];
-      $scope.have = [];
-      $scope.orderBy = "-likes.count";
-      $scope.getMore = function() {
-        instagram.fetchPopular(function(data) {
-            //console.log(data)
-            for(var i=0; i<max_limit; i++) {
-              if (typeof $scope.have[data[i].id]==="undefined") {
-                $scope.pics.push(data[i]) ;
-                $scope.have[data[i].id] = "1";
-              }
-            }
-        });
-      };
-      $scope.getMore();
-      
-        $scope.tags = [
-            'testapimike'
-        ]
-
-      $scope.gotoElement = function (eID){
-        // set the location.hash to the id of
-        // the element you wish to scroll to.
-        $location.hash('bottom');
-   
-        // call $anchorScroll()
-        anchorSmoothScroll.scrollTo(eID);
+       	$scope.gotoElement = function (eID){
+	        // set the location.hash to the id of
+	        // the element you wish to scroll to.
+	        $location.hash('bottom');
+	   
+	        // call $anchorScroll()
+	        anchorSmoothScroll.scrollTo(eID);
+	        
+	    };
         
-      };
     })
-   
-
-app.service('anchorSmoothScroll', function(){
+    .service('anchorSmoothScroll', function(){
     
     this.scrollTo = function(eID) {
 
@@ -111,6 +71,3 @@ app.service('anchorSmoothScroll', function(){
     };
     
 });
-
-
-
