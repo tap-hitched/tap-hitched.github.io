@@ -20,6 +20,7 @@ body {
   -ms-interpolation-mode: bicubic;
   image-rendering: -moz-crisp-edges;
   margin-top: 0px;
+  width: 100%;
   overflow-x: hidden;	
 }
 
@@ -43,6 +44,22 @@ html{
 
     background-repeat: no-repeat;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+
 
 .venue {
 	position: absolute;
@@ -253,32 +270,6 @@ code, textarea {
 }
 
 
-pre {
-  border: none;
-  border-left: solid 10px #ccc;
-  padding-left: 18px;
-  margin: 2em 0 2em 5px;
-  width: 960px;
-  overflow-x: auto;
-  background-color: #fff;
-  display: block;
-  border-radius: 0px;
-}
-
-pre.highlight{
-  -webkit-box-shadow: 0px 5px 30px 0px rgba(85, 79, 65, 0.1);
-  -moz-box-shadow:    0px 5px 30px 0px rgba(85, 79, 65, 0.1);
-  box-shadow:         0px 5px 30px 0px rgba(85, 79, 65, 0.1);
-}
-
-
-
-pre code {
-  line-height: 1.5em;
-  font-size: 16px;
-  color: #000;
-  -webkit-font-smoothing: antialiased; 
-}
 
 
 evt {
@@ -294,9 +285,7 @@ evt div {
   padding-right: 4px;
 }
 
-body > blockquote {
-  width: 640px;
-}
+
 
 blockquote q {
   display: block;

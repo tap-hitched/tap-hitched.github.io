@@ -1,10 +1,6 @@
 var app = angular.module("mainApp", [])
 	.controller('MainPage',  function($scope, $window){
-        var w = angular.element($window),
-        	bodyWidth = $window.innerWidth;
-        w.bind('resize', function (d) {
-			bodyWidth = $window.innerWidth
-		});
+       
 
 
        	$scope.gotoElement = function (eID){
