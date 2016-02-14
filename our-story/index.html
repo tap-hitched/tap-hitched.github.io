@@ -1,0 +1,80 @@
+<html>
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://mtaptich.github.io/d3-lessons/css/setosa.css">
+<style type="text/css">
+
+
+	img{
+		position: absolute;
+		z-index: 100;
+	}
+
+	.pics {
+		z-index: 100;
+		position: relative;
+	}
+
+	body {
+	  background-color: transparent;
+	  -ms-interpolation-mode: bicubic;
+	  image-rendering: -moz-crisp-edges;
+	  max-width: 100%;
+	  margin-top: 0px;	
+	}
+
+	html{
+		 background: -moz-linear-gradient(top,  #a7d3db 0%, #cfddc9 88%, #e2e3ce 94%, #fceabd 100%); /* FF3.6+ */
+
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d3db), color-stop(88%,#cfddc9), color-stop(94%,#e2e3ce), color-stop(100%,#fceabd)); /* Chrome,Safari4+ */
+
+	    background: -webkit-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* Chrome10+,Safari5.1+ */
+
+	    background: -o-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* Opera 11.10+ */
+
+	    background: -ms-linear-gradient(top,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* IE10+ */
+
+	    background: linear-gradient(to bottom,  #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%); /* W3C */
+
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d3db', endColorstr='#fceabd',GradientType=0 ); /* IE6-8 */
+			max-width: 100%;
+	    	overflow-x: hidden;	
+	}
+
+
+</style>
+<meta name="viewport" content="width=1050, user-scalable=no"> 
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			
+				<pre class="highlight"><h3><b>Our Story...</b></h3></pre>
+			
+		</div>
+		<div class="col-xs-12">
+			
+			<pre class="highlight"><h3>Molly's version</h3> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum eu metus et maximus. Vestibulum accumsan arcu sit amet sapien aliquet consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer molestie lobortis tortor. Morbi iaculis elit vitae feugiat vehicula. Nunc vel bibendum massa. Pellentesque purus lorem, maximus vitae vulputate non, tempor eget nisi. Quisque vehicula, libero quis faucibus sagittis, lorem elit scelerisque mi, ac dapibus turpis ex sit amet ex. Donec interdum sodales cursus. Suspendisse rhoncus sodales arcu, nec viverra lacus pellentesque id. Aliquam egestas nisl eu lacinia dictum. Duis eget viverra ipsum, eget sollicitudin risus. Suspendisse potenti. Phasellus sollicitudin ipsum in dui mollis tempor. Vestibulum venenatis id dolor vel tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Nullam libero sapien, vehicula ac convallis et, vestibulum in leo. Cras quis vulputate nulla, quis tempor libero. Nulla facilisi. Phasellus vestibulum fermentum nunc nec scelerisque. Phasellus lobortis velit velit, non sodales lacus volutpat vel. Duis aliquet id libero sit amet pellentesque. Etiam pellentesque diam quis neque pharetra facilisis. Etiam fringilla commodo viverra. Nullam tempor nibh nec ligula lacinia egestas. Nam ornare non diam in sagittis. Donec sodales libero nulla, vel congue nisi consectetur nec. Donec aliquam risus nisl. Morbi elementum arcu sit amet varius commodo. Donec eu odio nulla.</p>
+			</pre>
+			
+		</div>
+		<div class="col-xs-12">
+			
+			<pre class="highlight"><h3>Mike's version</h3> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum eu metus et maximus. Vestibulum accumsan arcu sit amet sapien aliquet consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer molestie lobortis tortor. Morbi iaculis elit vitae feugiat vehicula. Nunc vel bibendum massa. Pellentesque purus lorem, maximus vitae vulputate non, tempor eget nisi. Quisque vehicula, libero quis faucibus sagittis, lorem elit scelerisque mi, ac dapibus turpis ex sit amet ex. Donec interdum sodales cursus. Suspendisse rhoncus sodales arcu, nec viverra lacus pellentesque id. Aliquam egestas nisl eu lacinia dictum. Duis eget viverra ipsum, eget sollicitudin risus. Suspendisse potenti. Phasellus sollicitudin ipsum in dui mollis tempor. Vestibulum venenatis id dolor vel tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Nullam libero sapien, vehicula ac convallis et, vestibulum in leo. Cras quis vulputate nulla, quis tempor libero. Nulla facilisi. Phasellus vestibulum fermentum nunc nec scelerisque. Phasellus lobortis velit velit, non sodales lacus volutpat vel. Duis aliquet id libero sit amet pellentesque. Etiam pellentesque diam quis neque pharetra facilisis. Etiam fringilla commodo viverra. Nullam tempor nibh nec ligula lacinia egestas. Nam ornare non diam in sagittis. Donec sodales libero nulla, vel congue nisi consectetur nec. Donec aliquam risus nisl. Morbi elementum arcu sit amet varius commodo. Donec eu odio nulla.</p>
+			</pre>
+			
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
